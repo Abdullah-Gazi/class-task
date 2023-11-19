@@ -1,0 +1,36 @@
+.cotainer{
+    box-sizing:border-box;
+    background-color:blueviolet;
+    width:40%;
+    height:300px;
+    margin:0 auto;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+    border-radius: 12px;
+}
+.name, .email, .password{
+border:none;
+border-radius:3px;
+}
+.name, .email, .password:hover{
+
+   border:none;
+   outline:none;
+   color:green;
+}
+.btn{
+    border-radius: 3px;
+    border:none;
+    padding:5px 10px;
+}
+.cotainer:hover{
+    box-shadow:1px 1px 5px black;
+}
+input{
+    text-align: center;
+}
+.btn:hover{
+    background-color: green;
+    color:wheat;
+}
